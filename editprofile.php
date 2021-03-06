@@ -79,12 +79,12 @@
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
         <div class="input-div">
             <label for="email">Email Address</label>
-            <input type="email" name="emailEdit" required id="email" value="<?php echo $_SESSION['email']; ?>">
+            <input type="email" name="emailEdit" required id="email" value="<?php if($email != '') { echo $email; } else { echo $_SESSION['email']; } ?>">
             <span class="error"><?php echo $emailErr; ?></span>
         </div>
         <div class="input-div">
             <label for="username">Username</label>
-            <input type="username" name="usernameEdit" required id="username" value="<?php echo $_SESSION['username'] ?>">
+            <input type="username" name="usernameEdit" required id="username" value="<?php if($username != '') { echo $username; } else { echo $_SESSION['username']; } ?>">
             <span class="error"><?php echo $usernameErr; ?></span>
         </div>
         <div class="input-div">
