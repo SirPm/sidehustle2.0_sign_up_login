@@ -89,17 +89,17 @@
         <h3>Welcome to This Authentication Sidehustle Internship Task Please Register Using The Form Below </h3>
         <div class="input-div">
             <label for="email">Email Address(Required)</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" required id="email">
             <span class="error"><?php echo $emailErr; ?></span>
         </div>
         <div class="input-div">
             <label for="username">Username(Required)</label>
-            <input type="username" name="username" id="username">
+            <input type="username" name="username" required id="username">
             <span class="error"><?php echo $usernameErr; ?></span>
         </div>
         <div class="input-div">
             <label for="password">Password(Required)</label>
-            <input type="password" name="password" id="password">
+            <input type="password" name="password" required id="password">
             <span class="error"><?php echo $passwordErr; ?></span>
         </div>
         <div class="input-div">
