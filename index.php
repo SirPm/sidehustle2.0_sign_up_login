@@ -64,7 +64,8 @@
 </head>
 <body>
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
-        <h3>Welcome to This Authentication Sidehustle Internship Task Please Login Using The Form Below </h3>
+        <h3>Welcome to This Authentication Sidehustle Internship Task</h3>
+        <h3>Please Login Using The Form Below </h3>
         <div class="input-div">
             <label for="username">Username</label>
             <input type="username" required name="username" id="username">

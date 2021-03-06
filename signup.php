@@ -86,7 +86,8 @@
 <body>
     
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
-        <h3>Welcome to This Authentication Sidehustle Internship Task Please Register Using The Form Below </h3>
+        <h3>Welcome to This Authentication Sidehustle Internship Task </h3>
+        <h3>Please Register Using The Form Below </h3>
         <div class="input-div">
             <label for="email">Email Address(Required)</label>
             <input type="email" name="email" required id="email">
