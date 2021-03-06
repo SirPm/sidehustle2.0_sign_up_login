@@ -42,7 +42,7 @@
             $permitToLoginNo += 1;
         }
 
-        if($permitToLoginNo == 3 && $registeredAlready = false) {
+        if($permitToLoginNo == 3) {
             $_SESSION['authenticated'] = true;
             echo "
                 <script>
